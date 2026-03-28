@@ -1,0 +1,90 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #111;
+}
+
+.header {
+  background: #0070f3;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main h2 {
+  color: #0070f3;
+  font-size: 1.8rem;
+}
+
+.main h3 {
+  color: #333;
+  margin-top: 1.5rem;
+}
+
+.main p {
+  line-height: 1.7;
+  color: #444;
+}
+
+.main ul {
+  line-height: 2;
+  color: #444;
+}
+
+.ctaButton {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: #0070f3;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.ctaButton:hover {
+  background: #005bb5;
+}
+
+.footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 1.25rem;
+  font-size: 0.9rem;
+}

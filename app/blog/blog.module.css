@@ -1,0 +1,83 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #111;
+}
+
+.header {
+  background: #0070f3;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.header h1 { margin: 0; font-size: 1.4rem; }
+
+.nav { display: flex; gap: 1.5rem; }
+.nav a { color: #fff; text-decoration: none; font-weight: 500; }
+.nav a:hover { text-decoration: underline; }
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main h2 {
+  color: #0070f3;
+  font-size: 1.8rem;
+}
+
+.intro {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.postList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.postCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background: #fafafa;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.postTitle {
+  margin: 0.4rem 0 0.75rem;
+  font-size: 1.2rem;
+  color: #0070f3;
+}
+
+.excerpt {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 1.25rem;
+  font-size: 0.9rem;
+}
